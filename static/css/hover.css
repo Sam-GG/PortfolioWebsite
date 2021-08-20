@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+.hoverText {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    margin: 10px;
+    color: #ffffff;
+    text-align: right;
+    background-color: #000000;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 48px;
+}
+
+.hoverText * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.hoverText img {
+    position: relative;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.hoverText figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 30px;
+}
+
+
+
+.hoverText h3,
+
+.hoverText h3 {
+    margin: 0 0 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hoverText p {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.hoverText a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.hoverText:hover img,
+.hoverText.hover img {
+    opacity: 0.4;
+}
+
+.hoverText:hover figcaption,
+.hoverText.hover figcaption {
+    opacity: 1;
+}
+
+.hoverText:hover figcaption:before,
+.hoverText.hover figcaption:before,
+.hoverText:hover figcaption:after,
+.hoverText.hover figcaption:after {
+    height: 100%;
+}
+
+.hoverText:hover:before,
+.hoverText.hover:before,
+.hoverText:hover:after,
+.hoverText.hover:after {
+    width: 100%;
+}
+
+.hoverText:hover:before,
+.hoverText.hover:before,
+.hoverText:hover:after,
+.hoverText.hover:after,
+.hoverText:hover figcaption:before,
+.hoverText.hover figcaption:before,
+.hoverText:hover figcaption:after,
+.hoverText.hover figcaption:after {
+    opacity: 0.1;
+}
