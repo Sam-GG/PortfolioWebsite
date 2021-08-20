@@ -1,0 +1,98 @@
+body {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(224, 211, 230);
+    background: linear-gradient(to right, #dbcfe5, #647288, #211e3b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: #0d0025 0px 0px 0.75px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+    width: 65%;
+}
+
+div.email {
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: #dbcfe5;
+    text-shadow: #0d0025 0px 0px 0px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;         
+}
+
+img {
+    border-radius: 48px;
+}
+
+.blurb1{
+    text-align: left;
+}
+
+.blurb1 img{
+    -webkit-box-reflect: right -96px linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+.blurb2 img{
+    -webkit-box-reflect: left -96px linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+
+.blurb2{
+    text-align: right;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 48px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(147, 139, 155);
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #2a222e;
+    color: rgb(255, 255, 255);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+button {
+    background-color: #dfd4a4;
+    border-width: 0.5px;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
