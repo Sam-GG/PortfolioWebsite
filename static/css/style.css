@@ -5,8 +5,9 @@ body {
     margin: auto;
     width: 80%;
     padding: 10px;
-    background-color: rgb(224, 211, 230);
-    background: linear-gradient(to right, #dbcfe5, #647288, #211e3b);
+    background-image: url(../img/green-background.jpg);
+    /* background-color: rgb(224, 211, 230); */
+    /* background: linear-gradient(to right, #dbcfe5, #647288, #211e3b); */
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: #0d0025 0px 0px 0.75px;
@@ -32,22 +33,30 @@ div.email {
 
 img {
     border-radius: 48px;
-    box-shadow: 8px 8px 8px rgb(49, 0, 0);
+    box-shadow: 5px 5px 5px rgba(68, 19, 19, 0.315);
 }
 
-.blurb1{
-    text-align: left;
-}
-
-.blurb1 img{
+.body_img1 img, .body_img3 img{
     -webkit-box-reflect: right -96px linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
 }
-.blurb2 img{
+.body_img2 img{
     -webkit-box-reflect: left -96px linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
 }
 
-.blurb2{
+.body_img2 {
     text-align: right;
+}
+
+.blurb1, .blurb2, .blurb3{
+    width: 55%;
+}
+
+.blurb2 {
+    float: right;
+}
+
+.github{
+    text-align: center;
 }
 
 /* Add a black background color to the top navigation */
@@ -85,15 +94,3 @@ img {
     display: none;
 }
 
-
-button {
-    background-color: #dfd4a4;
-    border-width: 0.5px;
-    color: rgb(0, 0, 0);
-    padding: 10px 25px;
-    margin: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-}
