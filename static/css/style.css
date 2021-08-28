@@ -26,6 +26,15 @@ p{
     padding-left: 24px;
 }
 
+.headshot{
+
+    display: inline-block;
+}
+
+.headshot img{
+    border-radius: 100%;
+}
+
 j, j1{
     font-size: 24px;
     font-weight: bold;
