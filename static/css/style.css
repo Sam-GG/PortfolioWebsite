@@ -2,15 +2,18 @@
 
 body {
     text-align: left;
+    font-size: 18px;
     margin: auto;
     width: 80%;
     padding: 10px;
-    background-image: url(../img/green-background.jpg);
+    /* background-image: url(../img/green-background.jpg); */
+    /* background-image: url(../img/blur1.jpg); */
+    background-image: url('../img/flower pic export.png');
     /* background-color: rgb(224, 211, 230); */
     /* background: linear-gradient(to right, #dbcfe5, #647288, #211e3b); */
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: #0d0025 0px 0px 0.75px;
+    text-shadow: #483f58 0px 0px 1px;
 
     font-family: 'Raleway', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -19,7 +22,19 @@ body {
 
 p{
     width: 65%;
+    padding-left: 24px;
 }
+
+j, j1{
+    font-size: 24px;
+    font-weight: bold;
+    color: bisque;
+}
+
+j1{
+    font-size: 36px;
+}
+
 
 div.email {
     text-align: right;
@@ -33,7 +48,7 @@ div.email {
 
 img {
     border-radius: 48px;
-    box-shadow: 5px 5px 5px rgba(68, 19, 19, 0.315);
+    box-shadow: 5px 5px 5px rgba(68, 19, 19, 0.281);
 }
 
 .body_img1 img, .body_img3 img{
@@ -48,11 +63,13 @@ img {
 }
 
 .blurb1, .blurb2, .blurb3{
-    width: 55%;
+    width: 65%;
+    padding-left: 24px;
 }
 
 .blurb2 {
     float: right;
+    padding-left: 48px;
 }
 
 .github{
